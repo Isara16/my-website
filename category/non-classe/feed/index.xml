@@ -10,7 +10,7 @@
 <channel>
 	<title>Non classé - Anahé I Portfolio</title>
 	<atom:link href="https://anahe.ch/category/non-classe/feed/" rel="self" type="application/rss+xml" />
-	<link>https://anahe.ch</link>
+	<link>https://anahe.ch/</link>
 	<description>Graphic Design &#38; Project Management</description>
 	<lastBuildDate>Sun, 17 Nov 2024 19:23:32 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,9 +21,9 @@
 	<generator>https://wordpress.org/?v=6.7.1</generator>
 
 <image>
-	<url>https://i0.wp.com/localhost/anahe/wp-content/uploads/2024/11/cropped-self_portrait-32x32.png</url>
+	<url>https://i0.wp.com/anahe.ch/wp-content/uploads/2024/11/cropped-self_portrait-32x32.png</url>
 	<title>Non classé - Anahé I Portfolio</title>
-	<link>https://anahe.ch</link>
+	<link>https://anahe.ch/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
@@ -38,8 +38,8 @@
 		<guid isPermaLink="false">https://anahe.ch/?p=1</guid>
 
 					<description><![CDATA[<p>Bienvenue sur WordPress. Ceci est votre premier article. Modifiez-le ou supprimez-le, puis commencez à écrire !</p>
-<p>The post <a href="https://anahe.ch/bonjour-tout-le-monde/">Bonjour tout le monde !</a> first appeared on <a href="https://anahe.ch">Anahé I Portfolio</a>.</p>]]></description>
-										<content:encoded><![CDATA[<p>Bienvenue sur WordPress. Ceci est votre premier article. Modifiez-le ou supprimez-le, puis commencez à écrire !</p><p>The post <a href="https://anahe.ch/bonjour-tout-le-monde/">Bonjour tout le monde !</a> first appeared on <a href="https://anahe.ch">Anahé I Portfolio</a>.</p>]]></content:encoded>
+<p>The post <a href="https://anahe.ch/bonjour-tout-le-monde/">Bonjour tout le monde !</a> first appeared on <a href="https://anahe.ch/">Anahé I Portfolio</a>.</p>]]></description>
+										<content:encoded><![CDATA[<p>Bienvenue sur WordPress. Ceci est votre premier article. Modifiez-le ou supprimez-le, puis commencez à écrire !</p><p>The post <a href="https://anahe.ch/bonjour-tout-le-monde/">Bonjour tout le monde !</a> first appeared on <a href="https://anahe.ch/">Anahé I Portfolio</a>.</p>]]></content:encoded>
 					
 					<wfw:commentRss>https://anahe.ch/bonjour-tout-le-monde/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
