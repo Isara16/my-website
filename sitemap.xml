@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This sitemap was dynamically generated on 27 December 2024 at 7h21 by All in One SEO v4.7.5 - the original SEO plugin for WordPress. -->
+
+<?xml-stylesheet type="text/xsl" href="https://anahe.ch/default-sitemap.xsl?sitemap=root"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<sitemap>
+		<loc><![CDATA[https://anahe.ch/post-sitemap.xml]]></loc>
+		<lastmod><![CDATA[2024-11-17T19:23:32+00:00]]></lastmod>
+	</sitemap>
+	<sitemap>
+		<loc><![CDATA[https://anahe.ch/page-sitemap.xml]]></loc>
+		<lastmod><![CDATA[2024-12-27T05:33:30+00:00]]></lastmod>
+	</sitemap>
+	<sitemap>
+		<loc><![CDATA[https://anahe.ch/portfolio-sitemap.xml]]></loc>
+		<lastmod><![CDATA[2024-12-26T12:29:21+00:00]]></lastmod>
+	</sitemap>
+	<sitemap>
+		<loc><![CDATA[https://anahe.ch/category-sitemap.xml]]></loc>
+		<lastmod><![CDATA[2024-11-17T19:23:32+00:00]]></lastmod>
+	</sitemap>
+	<sitemap>
+		<loc><![CDATA[https://anahe.ch/post_tag-sitemap.xml]]></loc>
+		<lastmod><![CDATA[2019-07-31T07:55:29+00:00]]></lastmod>
+	</sitemap>
+	<sitemap>
+		<loc><![CDATA[https://anahe.ch/portfolio_category-sitemap.xml]]></loc>
+		<lastmod><![CDATA[2024-12-26T12:29:21+00:00]]></lastmod>
+	</sitemap>
+</sitemapindex>
