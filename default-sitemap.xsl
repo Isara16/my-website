@@ -19,13 +19,8 @@
 			<head>
 				<title>
 					<xsl:choose>
-<<<<<<< Updated upstream
-						<xsl:when test="$fileType='Sitemap' or $fileType='RSS'">Sitemap</xsl:when>
-						<xsl:otherwise>Sitemap Index</xsl:otherwise>
-=======
 						<xsl:when test="$fileType='Sitemap' or $fileType='RSS'">Plan de site</xsl:when>
 						<xsl:otherwise>Index de plan de site</xsl:otherwise>
->>>>>>> Stashed changes
 					</xsl:choose>
 				</title>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -118,11 +113,7 @@
 			display: none;
 		}
 		.breadcrumb a:last-of-type::before {
-<<<<<<< Updated upstream
-			content: 'Back'
-=======
 			content: 'Retour'
->>>>>>> Stashed changes
 		}
 	}
 	@media (min-width: 1024px) {
@@ -154,11 +145,7 @@
 				</xsl:variable>
 
 				<xsl:call-template name="Header">
-<<<<<<< Updated upstream
-					<xsl:with-param name="title">Sitemap</xsl:with-param>
-=======
 					<xsl:with-param name="title">Plan de site</xsl:with-param>
->>>>>>> Stashed changes
 					<xsl:with-param name="amountOfURLs" select="$amountOfURLs"/>
 					<xsl:with-param name="fileType" select="$fileType"/>
 				</xsl:call-template>
@@ -181,34 +168,20 @@
 		<div class="breadcrumb">
 	<svg class="back" width="6" height="9" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.274 7.56L2.22 4.5l3.054-3.06-.94-.94-4 4 4 4 .94-.94z" fill="#141B38"/></svg>
 
-<<<<<<< Updated upstream
-	<a href="https://anahe.ch/"><span>Home</span></a>
-
-			<svg width="6" height="8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.727 7.06L3.78 4 .727.94l.94-.94 4 4-4 4-.94-.94z" fill="#141B38"/></svg>
-
-					<span>Sitemap Index</span>
-=======
 	<a href="https://anahe.ch"><span>Domicile</span></a>
 
 			<svg width="6" height="8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.727 7.06L3.78 4 .727.94l.94-.94 4 4-4 4-.94-.94z" fill="#141B38"/></svg>
 
 					<span>Index de plan de site</span>
->>>>>>> Stashed changes
 				</div>		<div class="table-wrapper">
 			<table cellpadding="3">
 				<thead>
 				<tr>
 					<th class="left">
 						URL					</th>
-<<<<<<< Updated upstream
-					<th>URL Count</th>
-					<th>
-						Last Updated					</th>
-=======
 					<th>Nombre d’URL</th>
 					<th>
 						Dernière mise à jour					</th>
->>>>>>> Stashed changes
 				</tr>
 				</thead>
 				<tbody>
@@ -242,30 +215,18 @@
 		<div class="breadcrumb">
 	<svg class="back" width="6" height="9" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.274 7.56L2.22 4.5l3.054-3.06-.94-.94-4 4 4 4 .94-.94z" fill="#141B38"/></svg>
 
-<<<<<<< Updated upstream
-	<a href="https://anahe.ch/"><span>Home</span></a>
-
-			<svg width="6" height="8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.727 7.06L3.78 4 .727.94l.94-.94 4 4-4 4-.94-.94z" fill="#141B38"/></svg>
-
-					<span>Sitemap</span>
-=======
 	<a href="https://anahe.ch"><span>Domicile</span></a>
 
 			<svg width="6" height="8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.727 7.06L3.78 4 .727.94l.94-.94 4 4-4 4-.94-.94z" fill="#141B38"/></svg>
 
 					<span>Plan de site</span>
->>>>>>> Stashed changes
 				</div>		<div class="table-wrapper">
 			<table cellpadding="3">
 				<thead>
 					<tr>
 						<th class="left">URL</th>
 						<th>
-<<<<<<< Updated upstream
-							Publication Date						</th>
-=======
 							Date de publication						</th>
->>>>>>> Stashed changes
 					</tr>
 				</thead>
 				<tbody>
@@ -295,16 +256,6 @@
 		<div class="breadcrumb">
 	<svg class="back" width="6" height="9" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.274 7.56L2.22 4.5l3.054-3.06-.94-.94-4 4 4 4 .94-.94z" fill="#141B38"/></svg>
 
-<<<<<<< Updated upstream
-	<a href="https://anahe.ch/"><span>Home</span></a>
-
-			<svg width="6" height="8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.727 7.06L3.78 4 .727.94l.94-.94 4 4-4 4-.94-.94z" fill="#141B38"/></svg>
-
-					<a href="https://anahe.ch/sitemap.xml"><span>Sitemap Index</span></a>
-						<svg width="6" height="8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.727 7.06L3.78 4 .727.94l.94-.94 4 4-4 4-.94-.94z" fill="#141B38"/></svg>
-
-					<span>Sitemap</span>
-=======
 	<a href="https://anahe.ch"><span>Domicile</span></a>
 
 			<svg width="6" height="8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.727 7.06L3.78 4 .727.94l.94-.94 4 4-4 4-.94-.94z" fill="#141B38"/></svg>
@@ -313,7 +264,6 @@
 						<svg width="6" height="8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.727 7.06L3.78 4 .727.94l.94-.94 4 4-4 4-.94-.94z" fill="#141B38"/></svg>
 
 					<span>Plan de site</span>
->>>>>>> Stashed changes
 				</div>		<div class="table-wrapper">
 			<table cellpadding="3">
 				<thead>
@@ -321,15 +271,6 @@
 						<th class="left">
 							URL						</th>
 													<th>
-<<<<<<< Updated upstream
-								Images							</th>
-												<th>
-							Change Frequency						</th>
-						<th>
-							Priority						</th>
-						<th>
-							Last Updated						</th>
-=======
 								Images 							</th>
 												<th>
 							Fréquence de modification						</th>
@@ -337,7 +278,6 @@
 							Priorité						</th>
 						<th>
 							Dernière mise à jour						</th>
->>>>>>> Stashed changes
 					</tr>
 				</thead>
 				<tbody>
@@ -413,16 +353,6 @@
 		<h1><xsl:value-of select="$title"/></h1>
 		<xsl:choose>
 			<xsl:when test="$fileType='RSS'">
-<<<<<<< Updated upstream
-				<p>Generated by <a href="https://aioseo.com/?utm_source=WordPress&#038;utm_campaign=liteplugin&#038;utm_medium=xml-sitemap" target="_blank" rel="noreferrer noopener">All in One SEO</a>, this is an RSS Sitemap, meant to be consumed by search engines like Google or Bing.</p>
-				<p>
-					You can find more information about RSS Sitemaps at <a href="https://www.sitemaps.org/" target="_blank" rel="noreferrer noopener">sitemaps.org</a>.				</p>
-			</xsl:when>
-			<xsl:otherwise>
-				<p>Generated by <a href="https://aioseo.com/?utm_source=WordPress&#038;utm_campaign=liteplugin&#038;utm_medium=xml-sitemap" target="_blank" rel="noreferrer noopener">All in One SEO</a>, this is an XML Sitemap, meant to be consumed by search engines like Google or Bing.</p>
-				<p>
-					You can find more information about XML Sitemaps at <a href="https://www.sitemaps.org/" target="_blank" rel="noreferrer noopener">sitemaps.org</a>.				</p>
-=======
 				<p>Généré par <a href="https://aioseo.com/?utm_source=WordPress&#038;utm_campaign=liteplugin&#038;utm_medium=xml-sitemap" target="_blank" rel="noreferrer noopener">All in One SEO</a>, ceci est un plan de site RSS, ayant pour but d’être lu par des moteurs de recherche tels que Google ou Bing.</p>
 				<p>
 					Pour plus d’informations sur les plans de site RSS, consultez <a href="https://www.sitemaps.org/" target="_blank" rel="noreferrer noopener">sitemaps.org</a>.				</p>
@@ -431,18 +361,13 @@
 				<p>Généré par <a href="https://aioseo.com/?utm_source=WordPress&#038;utm_campaign=liteplugin&#038;utm_medium=xml-sitemap" target="_blank" rel="noreferrer noopener">All in One SEO</a>, Ceci est un plan du site en XML, dans le but d'être lu par des moteurs de recherche tels que Google ou Bing.</p>
 				<p>
 					Pour plus d'informations sur les plans de site XML, consultez <a href="https://www.sitemaps.org/" target="_blank" rel="noreferrer noopener">sitemaps.org</a>.				</p>
->>>>>>> Stashed changes
 			</xsl:otherwise>
 		</xsl:choose>
 		<xsl:if test="$amountOfURLs &gt; 0">
 			<p>
 				<xsl:choose>
 					<xsl:when test="$fileType='Sitemap' or $fileType='RSS'">
-<<<<<<< Updated upstream
-						This sitemap contains						<xsl:value-of select="$amountOfURLs"/>
-=======
 						Ce plan du site contient						<xsl:value-of select="$amountOfURLs"/>
->>>>>>> Stashed changes
 						<xsl:choose>
 							<xsl:when test="$amountOfURLs = 1">
 								URL							</xsl:when>
@@ -451,18 +376,6 @@
 						</xsl:choose>
 					</xsl:when>
 					<xsl:otherwise>
-<<<<<<< Updated upstream
-						This sitemap index contains						<xsl:value-of select="$amountOfURLs"/>
-						<xsl:choose>
-							<xsl:when test="$amountOfURLs = 1">
-								sitemap							</xsl:when>
-							<xsl:otherwise>
-								sitemaps							</xsl:otherwise>
-						</xsl:choose>
-					</xsl:otherwise>
-				</xsl:choose>
-				and was generated on 27 December 2024 at 9h31			</p>
-=======
 						Cet index de sitemap contient						<xsl:value-of select="$amountOfURLs"/>
 						<xsl:choose>
 							<xsl:when test="$amountOfURLs = 1">
@@ -472,8 +385,7 @@
 						</xsl:choose>
 					</xsl:otherwise>
 				</xsl:choose>
-				et a été généré le 28 décembre 2024 à 12h28			</p>
->>>>>>> Stashed changes
+				et a été généré le 28 décembre 2024 à 13h12			</p>
 		</xsl:if>
 	</div>
 </xsl:template>
@@ -490,15 +402,9 @@
 
 	<xsl:variable name="priorityLabel">
 		<xsl:choose>
-<<<<<<< Updated upstream
-			<xsl:when test="$priorityLevel = 'low'">Low</xsl:when>
-			<xsl:when test="$priorityLevel = 'medium'">Medium</xsl:when>
-			<xsl:when test="$priorityLevel = 'high'">High</xsl:when>
-=======
 			<xsl:when test="$priorityLevel = 'low'">Faible</xsl:when>
 			<xsl:when test="$priorityLevel = 'medium'">Moyen</xsl:when>
 			<xsl:when test="$priorityLevel = 'high'">Élevée</xsl:when>
->>>>>>> Stashed changes
 		</xsl:choose>
 	</xsl:variable>
 
@@ -513,19 +419,6 @@
 	<div class="breadcrumb">
 	<svg class="back" width="6" height="9" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.274 7.56L2.22 4.5l3.054-3.06-.94-.94-4 4 4 4 .94-.94z" fill="#141B38"/></svg>
 
-<<<<<<< Updated upstream
-	<a href="https://anahe.ch/"><span>Home</span></a>
-
-			<svg width="6" height="8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.727 7.06L3.78 4 .727.94l.94-.94 4 4-4 4-.94-.94z" fill="#141B38"/></svg>
-
-					<span>Sitemap Index</span>
-				</div>	<div class="empty-sitemap">
-		<h2 class="empty-sitemap__title">
-			Whoops!			<br />
-			There are no posts here		</h2>
-		<div class="empty-sitemap__buttons">
-			<a href="https://anahe.ch/" class="button">Back to Homepage</a>
-=======
 	<a href="https://anahe.ch"><span>Domicile</span></a>
 
 			<svg width="6" height="8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.727 7.06L3.78 4 .727.94l.94-.94 4 4-4 4-.94-.94z" fill="#141B38"/></svg>
@@ -537,7 +430,6 @@
 			Aucune publication ici		</h2>
 		<div class="empty-sitemap__buttons">
 			<a href="https://anahe.ch" class="button">Revenir à la page d’accueil</a>
->>>>>>> Stashed changes
 					</div>
 
 			</div>

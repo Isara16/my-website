@@ -1,14 +1,7 @@
-<<<<<<< Updated upstream
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- This sitemap was dynamically generated on 27 December 2024 at 9h24 by All in One SEO v4.7.5 - the original SEO plugin for WordPress. -->
+<!-- Ce plan de site a été généré dynamiquement le 28 décembre 2024 à 13h11 par All in One SEO v4.7.5 - l’extension SEO originale pour WordPress. -->
 
 <?xml-stylesheet type="text/xsl" href="https://anahe.ch/default-sitemap.xsl?sitemap=root"?>
-=======
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- Ce plan de site a été généré dynamiquement le 28 décembre 2024 à 12h27 par All in One SEO v4.7.5 - l’extension SEO originale pour WordPress. -->
-
-<?xml-stylesheet type="text/xsl" href="https://anahe.ch/default-sitemap.xsl?sitemap=root"?>
->>>>>>> Stashed changes
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<sitemap>
 		<loc><![CDATA[https://anahe.ch/post-sitemap.xml]]></loc>
@@ -16,11 +9,7 @@
 	</sitemap>
 	<sitemap>
 		<loc><![CDATA[https://anahe.ch/page-sitemap.xml]]></loc>
-<<<<<<< Updated upstream
-		<lastmod><![CDATA[2024-12-27T07:38:28+00:00]]></lastmod>
-=======
 		<lastmod><![CDATA[2024-12-28T11:24:59+00:00]]></lastmod>
->>>>>>> Stashed changes
 	</sitemap>
 	<sitemap>
 		<loc><![CDATA[https://anahe.ch/portfolio-sitemap.xml]]></loc>

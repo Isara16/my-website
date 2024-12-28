@@ -7,7 +7,7 @@
 	>
 <channel>
 	<title>
-	Comments on: Tobermory	</title>
+	Commentaires sur : Tobermory	</title>
 	<atom:link href="https://anahe.ch/tobermory/feed/" rel="self" type="application/rss+xml" />
 	<link>https://anahe.ch/tobermory/?utm_source=rss#038;utm_medium=rss&#038;utm_campaign=tobermory</link>
 	<description>Graphic Design &#38; Project Management</description>
@@ -19,7 +19,7 @@
 	<generator>https://wordpress.org/?v=6.7.1</generator>
 	<item>
 		<title>
-		By: John Doe		</title>
+		Par : John Doe		</title>
 		<link>https://anahe.ch/tobermory/#comment-4</link>
 
 		<dc:creator><![CDATA[John Doe]]></dc:creator>
@@ -33,24 +33,24 @@
 			</item>
 		<item>
 		<title>
-		By: Eddie Barkley		</title>
+		Par : Eddie Barkley		</title>
 		<link>https://anahe.ch/tobermory/#comment-3</link>
 
 		<dc:creator><![CDATA[Eddie Barkley]]></dc:creator>
 		<pubDate>Mon, 24 Sep 2018 16:43:42 +0000</pubDate>
 		<guid isPermaLink="false">http://bifrost.local/?p=3527#comment-3</guid>
 
-					<description><![CDATA[In reply to &lt;a href=&quot;https://anahe.ch/tobermory/#comment-2&quot;&gt;Chris Johnson&lt;/a&gt;.
+					<description><![CDATA[En réponse à &lt;a href=&quot;https://anahe.ch/tobermory/#comment-2&quot;&gt;Chris Johnson&lt;/a&gt;.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam blandit sem vel neque iaculis, vitae tempus lacus pellentesque. Nullam sed est vel massa laoreet varius. Sed euismod arcu ante, ac lacinia nunc venenatis eget. Sed bibendum, turpis vitae dapibus venenatis, urna ex blandit felis, eu faucibus mi sapien non velit.]]></description>
-			<content:encoded><![CDATA[<p>In reply to <a href="https://anahe.ch/tobermory/#comment-2">Chris Johnson</a>.</p>
+			<content:encoded><![CDATA[<p>En réponse à <a href="https://anahe.ch/tobermory/#comment-2">Chris Johnson</a>.</p>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam blandit sem vel neque iaculis, vitae tempus lacus pellentesque. Nullam sed est vel massa laoreet varius. Sed euismod arcu ante, ac lacinia nunc venenatis eget. Sed bibendum, turpis vitae dapibus venenatis, urna ex blandit felis, eu faucibus mi sapien non velit.</p>
 ]]></content:encoded>
 		
 			</item>
 		<item>
 		<title>
-		By: Chris Johnson		</title>
+		Par : Chris Johnson		</title>
 		<link>https://anahe.ch/tobermory/#comment-2</link>
 
 		<dc:creator><![CDATA[Chris Johnson]]></dc:creator>
