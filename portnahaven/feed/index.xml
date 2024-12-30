@@ -7,11 +7,7 @@
 	>
 <channel>
 	<title>
-<<<<<<< Updated upstream
-	Comments on: Portnahaven	</title>
-=======
 	Commentaires sur : Portnahaven	</title>
->>>>>>> Stashed changes
 	<atom:link href="https://anahe.ch/portnahaven/feed/" rel="self" type="application/rss+xml" />
 	<link>https://anahe.ch/portnahaven/?utm_source=rss#038;utm_medium=rss&#038;utm_campaign=portnahaven</link>
 	<description>Graphic Design &#38; Project Management</description>
@@ -23,11 +19,7 @@
 	<generator>https://wordpress.org/?v=6.7.1</generator>
 	<item>
 		<title>
-<<<<<<< Updated upstream
-		By: Eddie Barkley		</title>
-=======
 		Par : Eddie Barkley		</title>
->>>>>>> Stashed changes
 		<link>https://anahe.ch/portnahaven/#comment-16</link>
 
 		<dc:creator><![CDATA[Eddie Barkley]]></dc:creator>
@@ -41,39 +33,24 @@
 			</item>
 		<item>
 		<title>
-<<<<<<< Updated upstream
-		By: John Doe		</title>
-=======
 		Par : John Doe		</title>
->>>>>>> Stashed changes
 		<link>https://anahe.ch/portnahaven/#comment-15</link>
 
 		<dc:creator><![CDATA[John Doe]]></dc:creator>
 		<pubDate>Sat, 06 Oct 2018 15:56:58 +0000</pubDate>
 		<guid isPermaLink="false">http://bifrost.local/?p=4448#comment-15</guid>
 
-<<<<<<< Updated upstream
-					<description><![CDATA[In reply to &lt;a href=&quot;https://anahe.ch/portnahaven/#comment-14&quot;&gt;Chris Johnson&lt;/a&gt;.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam blandit sem vel neque iaculis, vitae tempus lacus pellentesque. Nullam sed est vel massa laoreet varius. Sed euismod arcu ante, ac lacinia nunc venenatis eget. Sed bibendum, turpis vitae dapibus venenatis, urna ex blandit felis, eu faucibus mi sapien non velit.]]></description>
-			<content:encoded><![CDATA[<p>In reply to <a href="https://anahe.ch/portnahaven/#comment-14">Chris Johnson</a>.</p>
-=======
 					<description><![CDATA[En réponse à &lt;a href=&quot;https://anahe.ch/portnahaven/#comment-14&quot;&gt;Chris Johnson&lt;/a&gt;.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam blandit sem vel neque iaculis, vitae tempus lacus pellentesque. Nullam sed est vel massa laoreet varius. Sed euismod arcu ante, ac lacinia nunc venenatis eget. Sed bibendum, turpis vitae dapibus venenatis, urna ex blandit felis, eu faucibus mi sapien non velit.]]></description>
 			<content:encoded><![CDATA[<p>En réponse à <a href="https://anahe.ch/portnahaven/#comment-14">Chris Johnson</a>.</p>
->>>>>>> Stashed changes
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam blandit sem vel neque iaculis, vitae tempus lacus pellentesque. Nullam sed est vel massa laoreet varius. Sed euismod arcu ante, ac lacinia nunc venenatis eget. Sed bibendum, turpis vitae dapibus venenatis, urna ex blandit felis, eu faucibus mi sapien non velit.</p>
 ]]></content:encoded>
 		
 			</item>
 		<item>
 		<title>
-<<<<<<< Updated upstream
-		By: Chris Johnson		</title>
-=======
 		Par : Chris Johnson		</title>
->>>>>>> Stashed changes
 		<link>https://anahe.ch/portnahaven/#comment-14</link>
 
 		<dc:creator><![CDATA[Chris Johnson]]></dc:creator>
