@@ -27,13 +27,13 @@
 
 <channel>
 	<title>Bifröst</title>
-	<link>http://bifrost.local</link>
+	<link>http://bifrost.local/</link>
 	<description>Just another NeuronThemes Site</description>
 	<pubDate>Tue, 13 Aug 2019 21:35:09 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
-	<wp:base_site_url>http://bifrost.local</wp:base_site_url>
-	<wp:base_blog_url>http://bifrost.local</wp:base_blog_url>
+	<wp:base_site_url>http://bifrost.local/</wp:base_site_url>
+	<wp:base_blog_url>http://bifrost.local/</wp:base_blog_url>
 
 		<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[admin]]></wp:author_login><wp:author_email><![CDATA[admin@neuronthemes.com]]></wp:author_email><wp:author_display_name><![CDATA[John Portman]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
 
@@ -1805,7 +1805,7 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://bifrost.local/?post_type=acf-field&#038;p=2776</guid>
 		<description></description>
-		<content:encoded><![CDATA[a:12:{s:4:"type";s:4:"text";s:12:"instructions";s:22:"Enter the url of link.";s:8:"required";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:12:"column_width";s:0:"";s:13:"default_value";s:0:"";s:11:"placeholder";s:27:"http://www.neuronthemes.com";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"html";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:1:{i:0;a:1:{i:0;a:3:{s:5:"field";s:19:"field_5b5f491c71d18";s:8:"operator";s:2:"==";s:5:"value";s:1:"2";}}}}]]></content:encoded>
+		<content:encoded><![CDATA[a:12:{s:4:"type";s:4:"text";s:12:"instructions";s:22:"Enter the url of link.";s:8:"required";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:12:"column_width";s:0:"";s:13:"default_value";s:0:"";s:11:"placeholder";s:27:"http://www.neuronthemes.com/";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"html";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:1:{i:0;a:1:{i:0;a:3:{s:5:"field";s:19:"field_5b5f491c71d18";s:8:"operator";s:2:"==";s:5:"value";s:1:"2";}}}}]]></content:encoded>
 		<excerpt:encoded><![CDATA[portfolio_item_custom_tabs_link_url]]></excerpt:encoded>
 		<wp:post_id>2776</wp:post_id>
 		<wp:post_date><![CDATA[2018-09-17 08:37:24]]></wp:post_date>
@@ -1871,7 +1871,7 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://bifrost.local/?post_type=elementor_library&#038;p=20807</guid>
 		<description></description>
-		<content:encoded><![CDATA[<h3><a href=http://bifrost.local target="_self"  rel="noopener noreferrer">Bifröst</a></h3>		
+		<content:encoded><![CDATA[<h3><a href=http://bifrost.local/ target="_self"  rel="noopener noreferrer">Bifröst</a></h3>		
 			<a href="#" id="fixed-section-hamburger">
 				<svg style="enable-background:new 0 0 139 139;" width="42px" height="42px" version="1.1" viewBox="0 0 139 139" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><line x1="26.5" x2="112.5" y1="46.3" y2="46.3"/><line id="XMLID_9_" x1="26.5" x2="112.5" y1="92.7" y2="92.7"/><line id="XMLID_8_" x1="26.5" x2="112.5" y1="69.5" y2="69.5"/></svg>
 			</a>
@@ -2528,7 +2528,7 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://bifrost.local/?post_type=elementor_library&#038;p=26950</guid>
 		<description></description>
-		<content:encoded><![CDATA[<h3><a href=http://bifrost.local target="_self"  rel="noopener noreferrer">Bifröst</a></h3>		
+		<content:encoded><![CDATA[<h3><a href=http://bifrost.local/ target="_self"  rel="noopener noreferrer">Bifröst</a></h3>		
 			<nav id="5ee822b"><ul id="menu-main-menu"><li id="menu-item-25698"><a href="#">Home</a>
 <ul>
 	<li id="menu-item-21552"><a href="#">Multi-Purpose</a>
@@ -3159,7 +3159,7 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://bifrost.local/?post_type=elementor_library&#038;p=26964</guid>
 		<description></description>
-		<content:encoded><![CDATA[<h3><a href=http://bifrost.local target="_self"  rel="noopener noreferrer">Bifröst</a></h3>		
+		<content:encoded><![CDATA[<h3><a href=http://bifrost.local/ target="_self"  rel="noopener noreferrer">Bifröst</a></h3>		
 			<nav id="9dbc36f"><ul id="menu-main-menu"><li id="menu-item-25698"><a href="#">Home</a>
 <ul>
 	<li id="menu-item-21552"><a href="#">Multi-Purpose</a>
@@ -4217,7 +4217,7 @@
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://bifrost.local/?elementor_library=side-menu-classic</guid>
 		<description></description>
-		<content:encoded><![CDATA[<h3><a href=http://bifrost.local target="_self"  rel="noopener noreferrer">Bifröst</a></h3>		
+		<content:encoded><![CDATA[<h3><a href=http://bifrost.local/ target="_self"  rel="noopener noreferrer">Bifröst</a></h3>		
 			<nav id="2a7b9cb8"><ul id="menu-main-menu"><li id="menu-item-29220"><a href="#">Home</a></li>
 <li id="menu-item-29221"><a href="#">About</a></li>
 <li id="menu-item-29222"><a href="#">Services</a></li>
@@ -4231,7 +4231,7 @@
 <li><a href="#">Services</a></li>
 <li><a href="#">Contact</a></li>
 </ul></nav>			
-			<h3><a href=http://bifrost.local target="_self"  rel="noopener noreferrer">Bifröst</a></h3>		
+			<h3><a href=http://bifrost.local/ target="_self"  rel="noopener noreferrer">Bifröst</a></h3>		
 			<nav id="a1d58f7"><ul id="menu-main-menu-2"><li><a href="#">Home</a></li>
 <li><a href="#">About</a></li>
 <li><a href="#">Services</a></li>
@@ -9649,7 +9649,7 @@ the sticky option of content is enabled.]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[portfolio_item_custom_tabs_1_portfolio_item_custom_tabs_link_title]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://apple.com]]></wp:meta_value>
+		<wp:meta_value><![CDATA[https://apple.com]]>/</wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_portfolio_item_custom_tabs_1_portfolio_item_custom_tabs_link_title]]></wp:meta_key>
@@ -13078,7 +13078,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, elit u
 			<h1>What should news look like on a mobile device?<br>Take a look at the new Good Feels Good app.</h1>		
 		<h5>Services</h5><p>User Testing<br />Angular Js<br />Node Js<br />Photoshop</p><h5>Deliverables</h5><p>App Design<br />Business Analysis<br />Business Strategy</p><h5>Client</h5>
 Apple<h5>Link</h5>
-<a href="https://neuronthemes.com">Website</a>		
+<a href="https://neuronthemes.com/">Website</a>		
                 <img width="500" height="500" src="http://bifrost.local/wp-content/uploads/2019/08/placeholder-500x500.png" alt="" srcset="http://bifrost.local/wp-content/uploads/2019/08/placeholder-500x500.png 500w, http://bifrost.local/wp-content/uploads/2019/08/placeholder-150x150.png 150w, http://bifrost.local/wp-content/uploads/2019/08/placeholder-300x300.png 300w, http://bifrost.local/wp-content/uploads/2019/08/placeholder-768x768.png 768w, http://bifrost.local/wp-content/uploads/2019/08/placeholder-600x600.png 600w, http://bifrost.local/wp-content/uploads/2019/08/placeholder-100x100.png 100w, https://neuronthemes.com/gallery/placeholder.png 1000w" sizes="(max-width: 500px) 100vw, 500px" />            
                                 <a title="" data-type="image" data-mfp-src=https://neuronthemes.com/gallery/placeholder.png  ></a>            
                 <img width="500" height="500" src="http://bifrost.local/wp-content/uploads/2019/08/placeholder-500x500.png" alt="" srcset="http://bifrost.local/wp-content/uploads/2019/08/placeholder-500x500.png 500w, http://bifrost.local/wp-content/uploads/2019/08/placeholder-150x150.png 150w, http://bifrost.local/wp-content/uploads/2019/08/placeholder-300x300.png 300w, http://bifrost.local/wp-content/uploads/2019/08/placeholder-768x768.png 768w, http://bifrost.local/wp-content/uploads/2019/08/placeholder-600x600.png 600w, http://bifrost.local/wp-content/uploads/2019/08/placeholder-100x100.png 100w, https://neuronthemes.com/gallery/placeholder.png 1000w" sizes="(max-width: 500px) 100vw, 500px" />            
