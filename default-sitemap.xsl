@@ -385,7 +385,7 @@
 						</xsl:choose>
 					</xsl:otherwise>
 				</xsl:choose>
-				et a été généré le 31 décembre 2024 à 16h22			</p>
+				et a été généré le 3 janvier 2025 à 19h50			</p>
 		</xsl:if>
 	</div>
 </xsl:template>
