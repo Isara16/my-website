@@ -9649,7 +9649,7 @@ the sticky option of content is enabled.]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[portfolio_item_custom_tabs_1_portfolio_item_custom_tabs_link_title]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://apple.com]]>/</wp:meta_value>
+		<wp:meta_value><![CDATA[https://apple.com/]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_portfolio_item_custom_tabs_1_portfolio_item_custom_tabs_link_title]]></wp:meta_key>
