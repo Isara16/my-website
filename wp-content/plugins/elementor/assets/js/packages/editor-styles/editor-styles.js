@@ -1,3 +1,108 @@
-/*! For license information please see editor-styles.js.LICENSE.txt */
-!function(){"use strict";var e={"./packages/packages/libs/editor-styles/src/types.ts":function(e,t,r){r.r(t)},"./packages/packages/libs/editor-styles/src/utils/generate-id.ts":function(e,t,r){function generateId(e="",t=[]){let r;do{r=e+Math.random().toString(16).slice(2,9)}while(t.includes(r));return r}r.r(t),r.d(t,{generateId:function(){return generateId}})},"./packages/packages/libs/editor-styles/src/utils/get-styles-schema.ts":function(e,t,r){r.r(t),r.d(t,{getStylesSchema:function(){return getStylesSchema}});const getStylesSchema=()=>{const e=(()=>{const e=window;return e.elementor?.config??{}})();return e?.atomic?.styles_schema??{}}},"./packages/packages/libs/editor-styles/src/utils/get-variant-by-meta.ts":function(e,t,r){function getVariantByMeta(e,t){return e.variants.find(e=>e.meta.breakpoint===t.breakpoint&&e.meta.state===t.state)}r.r(t),r.d(t,{getVariantByMeta:function(){return getVariantByMeta}})}},t={};function __webpack_require__(r){var a=t[r];if(void 0!==a)return a.exports;var s=t[r]={exports:{}};return e[r](s,s.exports,__webpack_require__),s.exports}__webpack_require__.d=function(e,t){for(var r in t)__webpack_require__.o(t,r)&&!__webpack_require__.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},__webpack_require__.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},__webpack_require__.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})};var r={};!function(){__webpack_require__.r(r),__webpack_require__.d(r,{generateId:function(){return e.generateId},getStylesSchema:function(){return t.getStylesSchema},getVariantByMeta:function(){return a.getVariantByMeta}});__webpack_require__("./packages/packages/libs/editor-styles/src/types.ts");var e=__webpack_require__("./packages/packages/libs/editor-styles/src/utils/generate-id.ts"),t=__webpack_require__("./packages/packages/libs/editor-styles/src/utils/get-styles-schema.ts"),a=__webpack_require__("./packages/packages/libs/editor-styles/src/utils/get-variant-by-meta.ts")}(),(window.elementorV2=window.elementorV2||{}).editorStyles=r}(),window.elementorV2.editorStyles?.init?.();
+(function() {
+
+//#region \0rolldown/runtime.js
+	var __defProp = Object.defineProperty;
+	var __name = (target, value) => __defProp(target, "name", {
+		value,
+		configurable: true
+	});
+	var __exportAll = (all, no_symbols) => {
+		let target = {};
+		for (var name in all) {
+			__defProp(target, name, {
+				get: all[name],
+				enumerable: true
+			});
+		}
+		if (!no_symbols) {
+			__defProp(target, Symbol.toStringTag, { value: "Module" });
+		}
+		return target;
+	};
+
+//#endregion
+
+//#region packages/packages/libs/editor-styles/src/utils/generate-id.ts
+	function generateId(prefix = "", existingIds = []) {
+		let id;
+		do
+			id = prefix + Math.random().toString(16).slice(2, 9);
+		while (existingIds.includes(id));
+		return id;
+	}
+
+//#endregion
+//#region packages/packages/libs/editor-styles/src/utils/get-styles-schema.ts
+	var getElementorConfig = () => {
+		return window.elementor?.config ?? {};
+	};
+	var getStylesSchema = () => {
+		return getElementorConfig()?.atomic?.styles_schema ?? {};
+	};
+	var isExistingStyleProperty = (property) => {
+		const stylesSchema = getStylesSchema();
+		return Object.keys(stylesSchema).includes(property);
+	};
+
+//#endregion
+//#region packages/packages/libs/editor-styles/src/utils/get-variant-by-meta.ts
+	function getVariantByMeta(style, meta) {
+		return style.variants.find((variant) => {
+			return variant.meta.breakpoint === meta.breakpoint && variant.meta.state === meta.state;
+		});
+	}
+
+//#endregion
+//#region packages/packages/libs/editor-styles/src/utils/state-utils.ts
+	var PSEUDO_STATES = [
+		"hover",
+		"focus",
+		"active",
+		"focus-visible"
+	];
+	var CLASS_STATES = [
+		"e--selected",
+		"e--disabled",
+		"e--playing",
+		"e--paused"
+	];
+	function getAdditionalStates(state) {
+		if (state === "hover") return ["focus-visible"];
+		return [];
+	}
+	function getStateSelector(state) {
+		if (isClassState(state)) return `.${state}`;
+		if (isPseudoState(state)) return `:${state}`;
+		return state;
+	}
+	function isClassState(state) {
+		return CLASS_STATES.includes(state);
+	}
+	function isPseudoState(state) {
+		return PSEUDO_STATES.includes(state);
+	}
+	function getSelectorWithState(baseSelector, state) {
+		if (!state) return baseSelector;
+		return [state, ...getAdditionalStates(state)].map((currentState) => `${baseSelector}${getStateSelector(currentState)}`).join(",");
+	}
+
+//#endregion
+//#region packages/packages/libs/editor-styles/src/index.ts
+	var src_exports = /* @__PURE__ */ __exportAll({
+		generateId: () => generateId,
+		getSelectorWithState: () => getSelectorWithState,
+		getStylesSchema: () => getStylesSchema,
+		getVariantByMeta: () => getVariantByMeta,
+		isClassState: () => isClassState,
+		isExistingStyleProperty: () => isExistingStyleProperty,
+		isPseudoState: () => isPseudoState
+	});
+
+//#endregion
+//#region \0elementor-package-library-entry
+	(window.elementorV2 = window.elementorV2 || {}).editorStyles = src_exports;
+
+//#endregion
+})();
+window.elementorV2.editorStyles?.init?.();
 //# sourceMappingURL=editor-styles.js.map
